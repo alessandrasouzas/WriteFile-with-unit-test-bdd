@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS produto (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(255),
+    preco DECIMAL(10,2)
+);
